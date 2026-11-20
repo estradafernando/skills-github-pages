@@ -7,7 +7,7 @@ Esta es una página con Pages de GitHub
 
 [Acerca de]({{ '/acerca/' | relative_url }})
 
-[Paisajes]({{ '/paisajes/' | relative_url }})
+[Paisajes]({{ '/paisajes' | relative_url }})
 
 [Estrellas]({{ '/estrellas/' | relative_url }})
 
