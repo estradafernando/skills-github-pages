@@ -15,4 +15,7 @@ title: Luna
 <h3>La Superluna de noviembre del 26</h3>
 ![Luna](./fotos/luna6.jpeg)
 
+<h3>La Luna en un cielo azul</h3>
+![La Luna en un cielo azul]({{ '/fotos/luna-en-cielo-azul.jpeg' | relative_url }})
+
 [Regresar]({{ '/' | relative_url }})
