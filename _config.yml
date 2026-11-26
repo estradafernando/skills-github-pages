@@ -4,3 +4,13 @@ plugins:
 title: Mi página
 author: Fernando
 description: Una página usando GitHub Pages con Jekill
+minima: 
+  skin: dark
+  navigation: true
+  navi_pages:
+    - about.md
+    - paisajes.md
+    - estrellas.md
+    - atardeceres.md
+    - luna.md
+    - viajes.md
