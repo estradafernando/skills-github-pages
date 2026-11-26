@@ -61,3 +61,41 @@
     border: 0;
   }
 }
+
+.site-header,
+.site-footer {
+  color: #f5f5f5;
+  background-color: #181818;
+  background-image: linear-gradient(rgba(0, 0, 0, .74), rgba(0, 0, 0, .74)),
+    url("../images/collage-galerias.webp");
+  background-size: cover;
+}
+
+.site-header {
+  min-height: clamp(110px, 12vw, 180px);
+  padding-top: 12px;
+  box-sizing: border-box;
+  background-position: center top;
+}
+
+.site-footer { background-position: center bottom; }
+
+.site-header .site-title,
+.site-header .page-link,
+.site-header .dropdown-link,
+.site-footer .footer-col-wrapper {
+  color: #f5f5f5;
+}
+
+.site-footer a,
+.site-footer a:visited { color: #c5e1ff; }
+
+.site-header .dropdown-menu,
+.site-header .site-nav input:checked ~ .trigger { background-color: #181818; }
+
+.site-header a:focus-visible,
+.site-header summary:focus-visible,
+.site-footer a:focus-visible {
+  outline: 2px solid #c5e1ff;
+  outline-offset: 3px;
+}
