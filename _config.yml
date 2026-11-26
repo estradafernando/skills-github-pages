@@ -1,16 +1,9 @@
-theme: minima 
+remote_theme: jekyll/minima@d4d779ad38598f59c04efc11d5ed823131383bd1
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
 title: Mi página
-author: Fernando
+author:
+  name: Fernando
 description: Una página usando GitHub Pages con Jekill
-minima: 
+minima:
   skin: dark
-  navigation: true
-  navi_pages:
-    - about.md
-    - paisajes.md
-    - estrellas.md
-    - atardeceres.md
-    - luna.md
-    - viajes.md

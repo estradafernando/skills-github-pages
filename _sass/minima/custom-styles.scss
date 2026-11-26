@@ -1,8 +1,3 @@
----
----
-
-@import "minima";
-
 .site-header { z-index: 1; }
 
 .site-nav .nav-list {
@@ -30,8 +25,8 @@
   margin: 0;
   padding: 5px 0;
   list-style: none;
-  background: #fdfdfd;
-  border: 1px solid #e8e8e8;
+  background: $background-color;
+  border: 1px solid $border-color-01;
   border-radius: 5px;
   line-height: 1.5;
 }
@@ -39,10 +34,10 @@
 .site-nav .dropdown-link {
   display: block;
   padding: 5px 10px;
-  color: #111;
+  color: $text-color;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $on-medium - 1px) {
   .site-nav .nav-trigger {
     display: block;
     position: absolute;
@@ -52,7 +47,7 @@
   }
 
   .site-nav .nav-trigger:focus-visible + label {
-    outline: 2px solid #2a7ae2;
+    outline: 2px solid $link-base-color;
   }
 
   .site-nav .nav-list {
