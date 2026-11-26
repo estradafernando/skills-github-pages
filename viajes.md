@@ -1,3 +1,4 @@
+[Regresar]({{ '/' | relative_url }})
 
 ![Francia](./fotos/viajes1.jpeg)
 
