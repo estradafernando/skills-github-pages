@@ -1,3 +1,7 @@
+---
+title: Luna
+---
+
 [Regresar]({{ '/' | relative_url }})
 
 <h3>La Luna desde España</h3>

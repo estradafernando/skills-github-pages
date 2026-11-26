@@ -1,0 +1,16 @@
+- title: Inicio
+  url: /
+- title: Páginas
+  subitems:
+    - title: Paisajes
+      url: /paisajes/
+    - title: Estrellas
+      url: /estrellas/
+    - title: Atardeceres
+      url: /atardeceres/
+    - title: Luna
+      url: /luna/
+    - title: Viajes 
+      url: /viajes/
+- title: Acerca de
+  url: /acerca/

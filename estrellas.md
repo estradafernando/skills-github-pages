@@ -1,3 +1,7 @@
+---
+title: Estrellas
+---
+
 [Regresar]({{ '/' | relative_url }})
 
 <h3>Estrellas con la luna</h3>

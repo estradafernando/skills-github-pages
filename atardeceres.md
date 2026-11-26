@@ -1,3 +1,7 @@
+---
+title: Atardeceres
+---
+
 [Regresar]({{ '/' | relative_url }})
 
 <h3>Un atardecer en el desierto</h3>

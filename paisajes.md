@@ -1,3 +1,7 @@
+---
+title: Paisajes
+---
+
 [Regresar]({{ '/' | relative_url }})
 
 <h3>Ciudad Juárez</h3>

@@ -1,3 +1,7 @@
+---
+title: Viajes
+---
+
 [Regresar]({{ '/' | relative_url }})
 
 <h3>La Torre en Paris de noche</h3>

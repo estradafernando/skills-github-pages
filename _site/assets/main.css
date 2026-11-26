@@ -194,3 +194,24 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+.site-header { z-index: 1; }
+
+.site-nav .nav-list { display: flex; align-items: center; gap: 20px; list-style: none; margin: 0; }
+
+.site-nav .nav-dropdown { position: relative; }
+
+.site-nav summary { cursor: pointer; list-style: none; }
+
+.site-nav summary::-webkit-details-marker { display: none; }
+
+.site-nav summary::after { content: " \25BE"; }
+
+.site-nav .dropdown-menu { position: absolute; right: 0; min-width: 180px; margin: 0; padding: 5px 0; list-style: none; background: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; line-height: 1.5; }
+
+.site-nav .dropdown-link { display: block; padding: 5px 10px; color: #111; }
+
+@media screen and (max-width: 600px) { .site-nav .nav-trigger { display: block; position: absolute; width: 1px; height: 1px; opacity: 0; }
+  .site-nav .nav-trigger:focus-visible + label { outline: 2px solid #2a7ae2; }
+  .site-nav .nav-list { display: block; text-align: right; }
+  .site-nav .dropdown-menu { position: static; min-width: 0; border: 0; } }
