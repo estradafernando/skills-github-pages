@@ -8,6 +8,6 @@ permalink: /acerca/
 
 Esta es mi nueva página.
 
-![Foto de la Luna](./fotos/Luna1.jpeg)
+![Foto de la Luna]({{ '/fotos/luna6.jpeg' | relative_url }})
 
 [Volver al inicio]({{ '/' | relative_url }})
