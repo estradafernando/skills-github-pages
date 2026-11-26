@@ -2,14 +2,14 @@
   url: /
 - title: Páginas
   subitems:
-    - title: Paisajes
-      url: /paisajes
-    - title: Estrellas
-      url: /estrellas
     - title: Atardeceres
       url: /atardeceres
+    - title: Estrellas
+      url: /estrellas
     - title: Luna
       url: /luna
+    - title: Paisajes
+      url: /paisajes
     - title: Viajes 
       url: /viajes
 - title: Acerca de

@@ -8,9 +8,9 @@ Esta es una página con Pages de GitHub
   <tbody>
     <tr>
       <td style="width: 20%; text-align: center; vertical-align: top;">
-        <a href="{{ '/paisajes' | relative_url }}">
-          <img src="{{ '/fotos/menu/paisajes.jpeg' | relative_url }}" alt="" width="416" height="440" style="display: block; width: 100%; height: auto;">
-          Paisajes
+        <a href="{{ '/atardeceres' | relative_url }}">
+          <img src="{{ '/fotos/menu/atardeceres.jpeg' | relative_url }}" alt="" width="416" height="440" style="display: block; width: 100%; height: auto;">
+          Atardeceres
         </a>
       </td>
       <td style="width: 20%; text-align: center; vertical-align: top;">
@@ -20,15 +20,15 @@ Esta es una página con Pages de GitHub
         </a>
       </td>
       <td style="width: 20%; text-align: center; vertical-align: top;">
-        <a href="{{ '/atardeceres' | relative_url }}">
-          <img src="{{ '/fotos/menu/atardeceres.jpeg' | relative_url }}" alt="" width="416" height="440" style="display: block; width: 100%; height: auto;">
-          Atardeceres
-        </a>
-      </td>
-      <td style="width: 20%; text-align: center; vertical-align: top;">
         <a href="{{ '/luna' | relative_url }}">
           <img src="{{ '/fotos/menu/luna.jpeg' | relative_url }}" alt="" width="416" height="440" style="display: block; width: 100%; height: auto;">
           Luna
+        </a>
+      </td>
+      <td style="width: 20%; text-align: center; vertical-align: top;">
+        <a href="{{ '/paisajes' | relative_url }}">
+          <img src="{{ '/fotos/menu/paisajes.jpeg' | relative_url }}" alt="" width="416" height="440" style="display: block; width: 100%; height: auto;">
+          Paisajes
         </a>
       </td>
       <td style="width: 20%; text-align: center; vertical-align: top;">
